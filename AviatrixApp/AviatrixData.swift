@@ -42,7 +42,6 @@ class AviatrixData {
             "Denver" : 390,
             "SLC" : 0
         ]
-    ]
-    
+    ]    
 }
 

@@ -10,8 +10,17 @@ import Foundation
 
 class Aviatrix {
     
+    var running = false
+    
+    var author = ""
+    
+    init(newAuthor : String) {
+        author = newAuthor
+    }
+    
     func start() -> Bool {
-        return true
+        running = true
+        return running
     }
     
     func refuel() {

@@ -14,7 +14,8 @@ class AviatrixData {
         "St. Louis" : 1.79,
         "Phoenix" : 1.84,
         "Denver" : 1.65,
-        "SLC" : 1.95
+        "SLC" : 1.95,
+        "SF" : 1.98
     ]
     
     var knownDistances = [
@@ -22,26 +23,37 @@ class AviatrixData {
             "St. Louis" : 0,
             "Phoenix" : 1260,
             "Denver" : 768,
-            "SLC" : 1150
+            "SLC" : 1150,
+            "SF": 1730
         ],
         "Phoenix" : [
             "St. Louis" : 1260,
             "Phoenix" : 0,
             "Denver" : 601,
-            "SLC" : 508
+            "SLC" : 508,
+            "SF" : 650
         ],
         "Denver" : [
             "St. Louis" : 768,
             "Phoenix" : 601,
             "Denver" : 0,
-            "SLC" : 390
+            "SLC" : 390,
+            "SF" : 965
         ],
         "SLC" : [
             "St. Louis" : 1150,
             "Phoenix" : 508,
             "Denver" : 390,
-            "SLC" : 0
+            "SLC" : 0,
+            "SF" : 598
+        ],
+        "SF" : [
+            "St. Louis" : 1730,
+            "Phoenix" : 650,
+            "Denver" : 965,
+            "SLC" : 598,
+            "SF" : 0
         ]
-    ]    
+        ]
 }
 
